@@ -1,0 +1,59 @@
+
+
+////---- content to checks
+I dont think we need more content to test for now
+because, its kinda over && over again and i dont have any idea to make it simple
+https://www.youtube.com/watch?v=Jv2uxzhPFl4
+
+https://tddmanifesto.com/exercises/
+https://cleancoders.com/
+tdd exercises
+
+
+// 3 level of test for now
+- unit test >> using Jest
+    it really is annoying if you just test all of the things
+- integration test >> (nothing)
+    start using resource interaction with others
+    my integration test is in the app
+- e2e test
+
+//for www content-JS
+what should be in here?
+- all content in www
+- more additional content to be added in www
+    - this is to check the current port and check if mysql is using the port for it
+    nodejs check if the port used by what app
+    https://stackoverflow.com/questions/29860354/in-nodejs-how-do-i-check-if-a-port-is-listening-or-in-use
+- cut the content if we can
+
+//100% unit-test content?
+    because, its kinda idiot if it test all thing. we should just test unit that is complex
+    what about tree-ing and branching codes that start from main?
+
+//why we do this?
+software editing didnt change from the past years
+what we always do are this    
+    - sequence(top to down, 2 lines of code) 
+    - selection(ifelse, switch)
+    - iteration(while, for)
+
+thats why we always find the idea from other discipline like
+    - accountant double-entry bookkeeping
+
+
+// content to remember
+I just replicated the example in Dart. I learned a couple of things:
+1. You must have an intermediate level of using the language.
+2. Every testing environment is pretty much the same. Still, the conventions used by the Dart test library and the different Exceptions-related objects are different than those used in Jest, so you gotta know them all as well.
+3. The KISS principle is the most important one. Don't advance too much further, every time you write something, run the tests. Keep refactoring and running at the same time until the all tests pass. This is the moment when you use all your brain.
+
+I also collected every tip/rule Uncle Bob explained about TDD in this video:
+1. You are not allowed to write any production code until you have first written a test that fails because the production code doesn't exist.
+2. You are not allowed to write any more of a unit test than is sufficient to fail - and not compiling is failing.
+3. You are not allowed to write any more production code than is sufficient to pass the one failing unit test.
+4. Engage as few brain cells as possible, you will need them later. Keep it simple! (KISS) Don't do too much too fast.
+5. Try to avoid the core (the golden behavior) of the problem until it is unavoidable. Save the most important feature of it for as long as possible.
+6. If you think some code you just wrote is a wrong solution... prove it! Put it to a test.
+7. You are not allowed to make the production code more specific than the tests. The tests and the production code must move in opposite directions.
+    Every new test you add makes the test code more specific, more constrained. Everything you do to the production code must make it more general.

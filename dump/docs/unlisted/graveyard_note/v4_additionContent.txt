@@ -1,0 +1,9 @@
+if you directly test into code it really is different
+
+- simplify www and GSDAM to just use one data (DONE)
+- fixing packlib (DONE)
+- add testing content
+    making test on ALL-SIDE of GSDAM (DONE)
+    how do we test WWW without any-side effects?
+    what about the others?
+- code upgrade? (DONE)
